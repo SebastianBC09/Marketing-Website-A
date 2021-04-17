@@ -25,3 +25,38 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Header style */
+
+header {
+  width: 100vw;
+  height: 50px;
+  background-color: var(--black-color);
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-size: 3rem;
+  color: var(--white-color);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding-left: 50px;
+}
+
+nav a {
+  color: var(--white-color);
+  font-size: var(--subtitle-size);
+}

@@ -2,15 +2,15 @@
 /* Texts -> font-family: 'Roboto', sans-serif; */
 
 :root {
-  --white-color: #E7EBEB;
+  --white-color: #e7ebeb;
   --black-color: #171717;
-  --grey-color: #A3A4C0;
-  --green-color: #06506B;
-  --blue-color: #0047AB;
-  --hero-title-size: 9.6rem; 
+  --grey-color: #a3a4c0;
+  --green-color: #06506b;
+  --blue-color: #0047ab;
+  --hero-title-size: 9.6rem;
   --title-size: 7.2rem;
   --subtitle-size: 1.8rem;
-  --text-size: 1.4rem; 
+  --text-size: 1.4rem;
   --big-button-text-size: 4.8rem;
   --button-text-size: 2.4rem;
 }
@@ -23,5 +23,40 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header style */
+
+header {
+  width: 100vw;
+  height: 50px;
+  background-color: var(--black-color);
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-size: 3rem;
+  color: var(--white-color);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding-left: 50px;
+}
+
+nav a {
+  color: var(--white-color);
+  font-size: var(--subtitle-size);
 }
