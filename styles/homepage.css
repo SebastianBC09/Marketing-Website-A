@@ -37,7 +37,6 @@ ul {
 /* Header style */
 
 header {
-  width: 100vw;
   height: 50px;
   background-color: var(--black-color);
   padding: 0 100px;
@@ -67,11 +66,11 @@ nav a {
 /* Footer style */
 
 footer {
-  width: 100vw;
   background-color: var(--black-color);
   padding: 0 100px;
-  position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer-top {
@@ -119,4 +118,22 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Hero section style */
+
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+}
+
+.hero h1 {
+  color: var(--white-color);
+  font-size: var(--hero-title-size);
+  font-family: "Hind", sans-serif;
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
 }
