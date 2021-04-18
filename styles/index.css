@@ -27,7 +27,6 @@ a {
 header {
   display: grid;
   height: 50px;
-  /* grid-template-rows: 1fr 1fr; */
   width: 100%;
 }
 
@@ -84,7 +83,7 @@ nav .shop-link {
 }
 
 .hero-text {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   height:164px;
   width:539px;
@@ -185,4 +184,53 @@ nav .shop-link {
   margin-top: 0px;
   margin-bottom:0px;
   text-align: center;
+}
+
+/* Testimonial */
+hr {
+  border: 1px solid #06506B;
+}
+
+.testimonial {
+  margin: 50px 32px 50px 32px;
+}
+
+.testimonial-content {
+  height: 200px;
+}
+
+.testimonial-text {
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 100px;
+  justify-items: center;
+  margin: 40px;
+}
+
+.testimonial-text p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  width: 520px;
+}
+
+.testimonial-text cite {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 12px 36%;
+  text-align: center;
+}
+
+/* CTA */
+
+.CTA {
+  margin: 50px 32px 50px 32px;
+}
+
+.CTA-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height:650px;
 }
