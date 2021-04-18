@@ -1,16 +1,26 @@
 body {
+  background-color: #E7EBEB;
   bottom: 0;
   left: 0;
   margin: 0;
   padding: 0;
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Hind', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
   color: #E7EBEB;
   display: inline;
+  font-family: 'Hind', sans-serif;
   text-decoration: none;
 }
 
@@ -37,7 +47,73 @@ nav .nav-logo-container {
 
 nav .shop-link {
   align-items: center;
+  font-size: 20px;
   display: flex;
   justify-content:flex-end;
   margin-right: 60px;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  height: 100%;
+}
+
+.hero-content {
+  display: grid;
+  grid-row: 4;
+  justify-items: center;
+  height: 420px;
+  margin:300px 0px 420px 160px;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight:bold;
+  height: 132px;
+}
+
+.hero-text {
+  font-size: 17px;
+  font-weight: 400;
+  height:164px;
+  width:539px;
+  line-height: 2;
+}
+
+.white-space{
+  height: 69px;
+}
+
+.hero-btn {
+  display: grid;
+  grid-template-columns: 0fr 1fr;
+  width:539px;
+}
+
+.hero-btn section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-buy-btn{
+  background-color: #0047AB;
+  border-radius: 25px;
+  border: none;
+  height: 36px;
+  width: 150px;
+}
+
+.hero-buy-btn a {
+  font-size: 16px; 
+  font-weight:400;
+  text-align: center;
+}
+
+.features-btn {
+  color: #0047AB;
+  font-size:16px;
+  font-weight:400;
+  display: flex;
+  margin-left: 30px;
 }
