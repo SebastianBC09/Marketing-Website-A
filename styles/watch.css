@@ -30,10 +30,27 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: var(--title-size);
+  font-family: "Hind", sans-serif;
+  color: var(--black-color);
+  text-align: center;
+  padding: 10px 0;
+}
+
 /* Header style */
 
 header {
-  width: 100vw;
   height: 50px;
   background-color: var(--black-color);
   padding: 0 100px;
@@ -64,11 +81,11 @@ nav a {
 /* Footer style */
 
 footer {
-  width: 100vw;
   background-color: var(--black-color);
   padding: 0 100px;
-  position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer-top {

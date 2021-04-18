@@ -30,10 +30,42 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: var(--title-size);
+  font-family: "Hind", sans-serif;
+  color: var(--black-color);
+  text-align: center;
+  padding: 10px 0;
+}
+
+h4 {
+  font-size: var(--button-text-size);
+  text-align: center;
+}
+
+h5 {
+  font-size: var(--subtitle-size);
+  text-align: center;
+}
+
+p {
+  color: var(--black-color);
+  font-size: var(--text-size);
+}
+
 /* Header style */
 
 header {
-  width: 100vw;
   height: 50px;
   background-color: var(--black-color);
   padding: 0 100px;
@@ -64,11 +96,11 @@ nav a {
 /* Footer style */
 
 footer {
-  width: 100vw;
   background-color: var(--black-color);
   padding: 0 100px;
-  position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .footer-top {
@@ -106,7 +138,6 @@ footer {
 
 .legal-copyright p {
   color: var(--white-color);
-  font-size: var(--text-size);
 }
 
 .social-media {
@@ -116,4 +147,77 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Product section style */
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.product-image-container {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 590px;
+}
+
+.product-description-container {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding: 0 50px;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 590px;
+  object-fit: cover;
+}
+
+.product-description {
+  display: grid;
+  grid-template-columns: 150px auto;
+  border-top: 1px solid var(--grey-color);
+  padding: 20px 20px 20px 0;
+}
+
+.product-description-title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.product-description-text {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.product-price {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-button {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buy-button button {
+  font-size: var(--button-text-size);
+  background-color: transparent;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid var(--black-color);
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+.buy-button button:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }

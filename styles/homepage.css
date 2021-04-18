@@ -56,6 +56,11 @@ h2 {
   padding: 10px 0;
 }
 
+p {
+  color: var(--white-color);
+  font-size: var(--text-size);
+}
+
 .hide-element {
   display: none !important;
 }
@@ -127,11 +132,6 @@ footer {
   width: 150px;
   height: 32px;
   border-radius: 20px;
-}
-
-.legal-copyright p {
-  color: var(--white-color);
-  font-size: var(--text-size);
 }
 
 .social-media {
@@ -228,9 +228,7 @@ footer {
 }
 
 .card-description-container p {
-  font-size: var(--text-size);
   text-align: center;
-  color: var(--white-color);
 }
 
 .card-description-container a {
