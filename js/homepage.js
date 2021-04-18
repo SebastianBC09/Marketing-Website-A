@@ -3,14 +3,19 @@ const ipad = document.querySelector('.product-container:nth-of-type(1)');
 const watch = document.querySelector('.product-container:nth-of-type(2)');
 const iphone = document.querySelector('.product-container:nth-of-type(3)');
 const macbook = document.querySelector('.product-container:nth-of-type(4)');
-const about = document.querySelector('.about-container');
 
-// Get products description containers
+// Get card description containers
 const ipadDescription = document.querySelectorAll('.card-description-container')[0];
 const watchDescription = document.querySelectorAll('.card-description-container')[1];
 const iphoneDescription = document.querySelectorAll('.card-description-container')[2];
 const macbookDescription = document.querySelectorAll('.card-description-container')[3];
 const aboutDescription = document.querySelectorAll('.card-description-container')[4];
+
+// Get menu button, nav element and about container
+const menuButton = document.querySelector('.menu-icon-container');
+const nav = document.querySelector('nav');
+const about = document.querySelector('.about-container');
+
 
 // Add events to IPad container
 ipad.addEventListener('mouseenter', function(event) {
@@ -56,3 +61,12 @@ about.addEventListener('mouseenter', function(event) {
 about.addEventListener('mouseleave', function(event) {
   aboutDescription.classList.add('hide-element');
 });
+
+// Add menu button click event
+menuButton.addEventListener('click', function(event) {
+  if (nav.classList.contains('nav-mobile')) {
+    nav.classList.remove('nav-mobile');
+  } else {
+    nav.classList.add('nav-mobile');
+  }
+})
