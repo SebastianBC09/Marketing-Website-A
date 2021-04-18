@@ -254,6 +254,12 @@ footer {
   align-items: center;
 }
 
+@media (max-width: 380px) {
+  .card-description-container {
+    padding: 0 20px !important;
+  }
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: calc(var(--hero-title-size) - 4.7rem) !important;
