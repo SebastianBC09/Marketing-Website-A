@@ -176,7 +176,7 @@ nav .shop-link {
 
 .feat-1{
   /* background-image: url('/assets/images/feature-1.jpg'); */
-  background: linear-gradient(180deg, rgba(231,235,235,.8) 0%, rgba(163,164,192,.3) 100%), url('/assets/images/feature-1.jpg');
+  background: linear-gradient(180deg, rgba(231,235,235,.8) 0%, rgba(163,164,192,.3) 100%), url('../assets/images/feature-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,7 +192,7 @@ nav .shop-link {
 }
 
 .feat-2{
-  background: linear-gradient(180deg, rgba(231,235,235,.8) 0%, rgba(163,164,192,.3) 100%), url('/assets/images/feature-2.jpg');
+  background: linear-gradient(180deg, rgba(231,235,235,.8) 0%, rgba(163,164,192,.3) 100%), url('../assets/images/feature-2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
