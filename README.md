@@ -2,7 +2,7 @@
 
 This is the first project of the Mastery stage of Platzi Master.
 
-For view the live project go to this link -> (https://www.link.com)
+For view the live project go to this link -> (https://sebastianbc09.github.io/Marketing-Website-A/)
 
 ## Lemon shop
 
