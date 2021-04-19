@@ -14,7 +14,7 @@ Lemon shop website is building with html, css and javacript technologies. It has
 
 - Landing page
 - Homepage
-- Buy page
+- Features page
 
 ## Website design
 
