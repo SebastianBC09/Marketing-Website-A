@@ -10,6 +10,9 @@ In this website we will be using the next tools in order to create & complete th
 - Figma (Design System)
 
 # Website design
+## Preview
+![Screenshot 2021-05-12 at 11-22-50 Lemon Shop - Try the lasted laptop designed for everyone CharmBook Plus](https://user-images.githubusercontent.com/53961155/118010265-7b0b7b80-b314-11eb-88e2-27354df311c6.png)
+
 ### Layout contain:
 
 - Header
@@ -40,7 +43,10 @@ Live project -> (https://sebastianbc09.github.io/Marketing-Website-A/)
 
 # Contributors
 
-- William Santiago Alzate Barriga
-- Sebastian Ballen Castañeda
+- Santiago Alzate (William Santiago Alzate [C7]) Front End
+- Sebastian Ballen (Sebastian Ballen [C7]) Front End
 
 https://github.com/SebastianBC09/Marketing-Website-A/graphs/contributors
+
+# Coach
+- Joshua Pedraza
